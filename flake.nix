@@ -24,7 +24,7 @@
       # Add overlays here if you need to override the nixpkgs
       # official packages.
       overlays = [];
-      
+
       # Uncomment this if you need unfree software (e.g. cuda) for
       # your project.
       #
@@ -40,6 +40,10 @@
         llvmPackages_14.clang
         cmake
         cmakeCurses
+
+        # Dependencies
+        # llvmPackages_14.llvm.dev
+        llvmPackages_14.libllvm
       ];
 
       # Setting up the environment variables you need during
