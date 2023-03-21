@@ -18,3 +18,7 @@ __pycache__
 # JetBrains project files
 .idea
 cmake-build-*
+
+# direnv
+.direnv
+.envrc
